@@ -1,0 +1,14 @@
+/Users/vladyslavtrachuk/Develop/c#_development/variables/bin/Debug/net9.0/variables
+/Users/vladyslavtrachuk/Develop/c#_development/variables/bin/Debug/net9.0/variables.deps.json
+/Users/vladyslavtrachuk/Develop/c#_development/variables/bin/Debug/net9.0/variables.runtimeconfig.json
+/Users/vladyslavtrachuk/Develop/c#_development/variables/bin/Debug/net9.0/variables.dll
+/Users/vladyslavtrachuk/Develop/c#_development/variables/bin/Debug/net9.0/variables.pdb
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/variables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/variables.AssemblyInfoInputs.cache
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/variables.AssemblyInfo.cs
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/variables.csproj.CoreCompileInputs.cache
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/variables.dll
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/refint/variables.dll
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/variables.pdb
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/variables.genruntimeconfig.cache
+/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/Debug/net9.0/ref/variables.dll
