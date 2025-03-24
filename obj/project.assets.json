@@ -8,25 +8,32 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/vladyslavtrachuk/.nuget/packages/": {}
+    "C:\\Users\\Vladyslav\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vladyslavtrachuk/Develop/c#_development/variables/variables.csproj",
+      "projectUniqueName": "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj",
       "projectName": "variables",
-      "projectPath": "/Users/vladyslavtrachuk/Develop/c#_development/variables/variables.csproj",
-      "packagesPath": "/Users/vladyslavtrachuk/.nuget/packages/",
-      "outputPath": "/Users/vladyslavtrachuk/Develop/c#_development/variables/obj/",
+      "projectPath": "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj",
+      "packagesPath": "C:\\Users\\Vladyslav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/vladyslavtrachuk/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Vladyslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

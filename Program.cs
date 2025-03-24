@@ -6,14 +6,18 @@ class Program
 {
 
 
+
     static void Main()
     {
         Program program = new();
-        int age = 27;
+        byte age = 27;
+        Console.WriteLine(age.GetTypeCode());
+
         string advice = GetAdvice(age);
         Console.WriteLine(advice);
 
-        const Season season = Season.Spring;
+        const Season
+            season = Season.Spring;
         string seasonName = GetSeason(season);
         Console.WriteLine(seasonName);
 
@@ -21,7 +25,7 @@ class Program
 
         PrintSeasonNames();
 
-
+        Console.ReadLine();
     }
 
     private static void PrintSeasonNames()
@@ -70,4 +74,3 @@ class Program
         };
     }
 }
-
