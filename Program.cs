@@ -6,27 +6,78 @@ class Program
 {
 
 
-
     static void Main()
     {
         Program program = new();
+        DimensionalArrays dimensionalArrays = new();
+        // TwoDimensionalArray();
+        GenerateLogNum();
         byte age = 27;
         Console.WriteLine(age.GetTypeCode());
+
+
 
         string advice = GetAdvice(age);
         Console.WriteLine(advice);
 
-        const Season
-            season = Season.Spring;
+        const Season season = Season.Spring;
         string seasonName = GetSeason(season);
         Console.WriteLine(seasonName);
+
+
 
         GenerateLogNum();
 
         PrintSeasonNames();
 
-        Console.ReadLine();
+
+        string result = GetUserInput();
+        Console.WriteLine(result);
+
+        // Console.ReadLine();
     }
+
+
+
+    private static void TwoDimensionalArray()
+    {
+        int[,] matrix = {
+        {1,2,3}, {4,5,6}
+    };
+
+
+        for (int dimension = 0; dimension < matrix.Rank; dimension++)
+        {
+            int sum = 0;
+            for (int row = 0; row < dimension; row++)
+            {
+                for (int column = 0; column < matrix.GetLength(row); column++)
+                {
+                    sum += matrix[row, column];
+                }
+
+            }
+            Console.WriteLine($" sum : {sum}");
+        }
+
+
+    }
+    private static String GetUserInput()
+    {
+        Console.WriteLine("Enter your age:");
+        string? takeResonse = Console.ReadLine();
+        bool isSuccess = int.TryParse(takeResonse, out int parsedAge);
+        if (isSuccess)
+        {
+            return $"Converted '{takeResonse}' to {parsedAge}.";
+        }
+        else
+        {
+            return $"Attempted conversion of '{takeResonse ?? "empty"}' failed";
+        }
+        ;
+    }
+
 
     private static void PrintSeasonNames()
     {
@@ -74,3 +125,4 @@ class Program
         };
     }
 }
+
