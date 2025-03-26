@@ -3,7 +3,10 @@
 
     static void Main()
     {
-
+        IPrinter printer = new OfficeMachine();
+        printer.Start();
+        IScanner scanner = new OfficeMachine();
+        scanner.Start();
         int[,] numbers = { { 1, 4, 2 }, { 3, 6, 8 } };
         foreach (int i in numbers)
         {
