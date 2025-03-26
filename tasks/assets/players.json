@@ -1,0 +1,33 @@
+[
+	{
+	  "name": "Lionel Messi",
+	  "position": "Forward",
+	  "age": 36,
+	  "club": "Inter Miami"
+	},
+	{
+	  "name": "Kylian Mbappé",
+	  "position": "Forward",
+	  "age": 25,
+	  "club": "Paris Saint-Germain"
+	},
+	{
+	  "name": "Kevin De Bruyne",
+	  "position": "Midfielder",
+	  "age": 32,
+	  "club": "Manchester City"
+	},
+	{
+	  "name": "Virgil van Dijk",
+	  "position": "Defender",
+	  "age": 32,
+	  "club": "Liverpool"
+	},
+	{
+	  "name": "Thibaut Courtois",
+	  "position": "Goalkeeper",
+	  "age": 31,
+	  "club": "Real Madrid"
+	}
+  ]
+  
