@@ -18,6 +18,7 @@ class Second
 	}
 	public static void GetFibonacciSeries()
 	{
+		Console.WriteLine("Input the number of fibonacci series:");
 		string? userInput = Console.ReadLine();
 		if (int.TryParse(userInput, out int parsedCount))
 		{

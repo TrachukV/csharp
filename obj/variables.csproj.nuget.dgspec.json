@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj": {}
+    "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj": {
+    "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj",
+        "projectUniqueName": "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj",
         "projectName": "variables",
-        "projectPath": "c:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj",
+        "projectPath": "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\variables.csproj",
         "packagesPath": "C:\\Users\\Vladyslav\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Vladyslav\\Develop\\csharp_variables\\obj\\",
+        "outputPath": "C:\\Users\\Vladyslav\\Develop\\csharp_variables\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
